@@ -26,7 +26,7 @@ superagent
 
 #### **```cookie.save(responseCookies, 'cookieObject')```**
 
-This will save ```responseCookies``` to an object named ```'cookieObject'```. Saving to the same object will replace duplicate cookies with the newly saved ones.
+This will save ```responseCookies``` to an object named ```'cookieObject'```. Saving to the same object will replace duplicate cookies with the new ones and keep old non-duplicate cookies.
 
 #### **```cookie.use('cookieObject')```**
 
