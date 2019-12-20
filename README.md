@@ -18,7 +18,7 @@ const superagent = require('superagent');
 const cookie = require('superagent-cookie');
 
 superagent
-.get('https://www.google.com/)
+.get('https://www.google.com/')
 .then(res => {
   cookie.save(res.headers['set-cookie'], 'googleCookies')
 })
