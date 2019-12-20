@@ -1,5 +1,5 @@
 # superagent-cookie
-Superagent plugin allowing you to save and use cookies across multiple requests.
+Superagent plugin allowing you to save and use cookies across multiple requests. Will be working on making this part of superagent in the future to improve its usability.
 
 ## Installation
 
